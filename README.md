@@ -6,5 +6,5 @@ O objetivo é que as pessoas sanem as dúvidas com mais facilidade e agilidade, 
 - [Larissa Yumi Ohashi](https://github.com/lariyumi)
 - [Mariana Souza Santos](<https://github.com/marianass030428>)
 - [Miguel Miranda de Andrade](https://github.com/miguelmirandadeandrade)
-- [Vitor Luis Barretto Pereira]
+- [Vitor Luis Barretto Pereira](https://github.com/Vitorpolo)
 
