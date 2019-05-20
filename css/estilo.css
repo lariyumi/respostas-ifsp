@@ -1,0 +1,51 @@
+label,
+input[type="submit"],
+input[type="text"],
+input[type="password"],
+a {
+    display: block;
+    margin-bottom: 3%;
+    width: 100%;
+    font-size: 100%;
+}
+
+input[type="submit"] {
+    background: #009900;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: darkgreen;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+   
+}
+
+#titulo {
+    font-size: 125%;
+    text-align: center;
+    padding: 5%;
+}
+
+#campos {
+    padding: 5%;
+}
+
+#all {
+    background-color: white;
+    border-radius: 3%;
+    padding: 1%;
+}
