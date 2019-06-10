@@ -33,33 +33,34 @@ img {
   margin-right: auto;
 }
 
-#titulo {
+.titulo {
     font-size: 125%;
     text-align: center;
     padding: 5%;
 }
 
-#campos {
+.campos {
     padding: 5%;
 }
 
-#all {
+.all {
     background-color: white;
     border-radius: 5%;
     padding: 1%;
+    
 }
 
 input[type="button"]{
     display: inline-block;
     margin: auto;
     margin-top: 20%;
-    margin-bottom: 2%;
-    color: white;
-    background: #009900;
-    width: 40%;
+    margin-bottom: 20%;
+    color: black;
+    background: white;
+    width: 100%;
     font-size: 100%;
 }
-#index img{
+.index img{
     display:block;
     margin-left: 0%;
     margin-right: 0%;
@@ -71,9 +72,14 @@ input[type="button"]{
 }
 
 .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
+    margin: auto;
     padding: 20px;
     font-size: 100%;
+}
+
+.botao button{
+    display:block;
+    padding: 20px;
+    margin:auto;
 }
 
