@@ -102,78 +102,75 @@ input[type="button"] {
     border-radius: 5%;
 }
 
-/*INDEX*/
+/*MENU*/
 *{
-    margin:0;
-    padding:0;
+    padding: 0px;
+    margin: 0px;
 }
 
-.menu{
-    width: 100%;
-    height: 50px;
-    margin-top: 0%;
-    background-color: rgba(0, 0, 0, 0);
+.menuu body{ 
+    display: block;
     font-family: 'Times New Roman';
 }
 
-.menu ul{
-    list-style: none;
-    position: relative;
+a{
+    text-decoration: none;
+    color: black;
 }
 
-.menu ul li{
-    width: 100px;
+ul{
+    list-style: none;
+}
+
+.menuu img{
+    display: block;
+    float: left;
+    width: 70px;
+}
+
+.menuu label[for="chec"]{
+    display: inline-block;
+    text-align: start;
+}
+
+.menuu input[type="checkbox"]{
+    display: none;
     float: left;
 }
 
-.menu a{
-    padding: 15px;
+nav{
+    background-color: rgb(4, 80, 10);
+    margin-top: 0%; 
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+.menuu input[type="checkbox"]:checked ~nav{
+    transform: translateX(350px);
+}
+
+ul{
+    top:70px;
+    position: absolute;
+    width: 100%;
+}
+
+a{
     display: block;
-    text-decoration: none;
-    text-align: center;
-    background-color: #009900;
+    padding: 16px 4px;
     color: white;
 }
 
-.menu ul ul{
-    position: absolute;
-    visibility: hidden;
-}
-
-.menu ul li:hover ul{
-    visibility: visible;
-}
-
-.menu a:hover{
-    background-color: #71e612e7;
+a:hover{
+    background-color: hsla(115, 100%, 74%, 0.993);
     color: rgb(0, 0, 0);
 }
 
-.menu ul ul li{
-    float:none;
-    border-bottom: solid 1px rgba(124, 255, 2, 0.527)
-}
-
-.menu ul ul li a{
-    background-color: rgba(9, 252, 110, 0.781);
-}
-
-label[for="btn_menu"]{
-    padding: 5px;
-    background-color: #009900;
-    color: #000000;
-    font-family: "Times New Roman";
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-}
-
-#bnt_menu{
-    display:none;
-}
-
-label[for="btn_menu"]{
-    display: none;
+.menuu label{
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
 }
