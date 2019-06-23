@@ -7,6 +7,7 @@ a {
     margin-bottom: 3%;
     width: 100%;
     font-size: 125%;
+    text-decoration: none;
 }
 
 input[type="submit"] {
@@ -48,6 +49,10 @@ img {
     background-color: white;
     border-radius: 5%;
     padding: 1%;
+}
+
+.all img {
+    margin-top: 5%;
 }
 
 input[type="button"] {
@@ -102,6 +107,11 @@ h2 {
     margin-top: 5%;
     display: block;
     width: fit-content;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 125%;
 }
 
 .link a {
@@ -175,7 +185,7 @@ ul {
 .a a {
     display: block;
     padding: 5% 1%;
-    color: white;
+    color: #ffffff;
 }
 
 .a a:hover {
