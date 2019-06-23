@@ -200,3 +200,48 @@ ul {
     width: 50%;
     left: 0%;
 }
+
+#msg{
+    width: 350px;
+    height: 200px;
+}
+
+.duvida{
+    background-color: white;
+    border-radius: 5%;
+    padding: 5%;
+    width: max-content;
+}
+
+.duvida img{
+    float: center;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+.flex-container>label{
+    float: left;;
+}
+
+#desc{
+    width: 400px;
+    height: 180px;
+}
+
+.perfil{
+    background-color: white;
+    border-radius: 5%;
+    padding: 5%;
+    display: block;
+    width: fit-content;
+}
+
+.perfil input[type="submit"]{
+    background: #009900;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 0%;
+}
