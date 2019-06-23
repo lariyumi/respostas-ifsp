@@ -6,7 +6,7 @@ a {
     display: block;
     margin-bottom: 3%;
     width: 100%;
-    font-size: 100%;
+    font-size: 125%;
 }
 
 input[type="submit"] {
@@ -19,12 +19,12 @@ input[type="submit"] {
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    width: 40%;
+    width: fit-content;
     display: block;
+    background-color: darkgreen;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: darkgreen;
 }
 
 img {
@@ -41,6 +41,7 @@ img {
 
 .campos {
     padding: 5%;
+    width: max-content;
 }
 
 .all {
@@ -58,13 +59,6 @@ input[type="button"] {
     background: white;
     width: 100%;
     font-size: 100%;
-}
-
-.index img {
-    display: block;
-    margin-left: 0%;
-    margin-right: 0%;
-    border-radius: 34%;
 }
 
 .flex-container {
@@ -98,79 +92,101 @@ input[type="button"] {
 
 .prova {
     padding: 5%;
-    margin: auto; 
+    margin: auto;
     border-radius: 5%;
 }
 
-/*MENU*/
-*{
-    padding: 0px;
-    margin: 0px;
+h2 {
+    margin: auto;
+    font-size: 200%;
+    margin-top: 5%;
+    display: block;
+    width: fit-content;
 }
 
-.menuu body{ 
+.link a {
+    margin-top: -5%;
+}
+
+* {
+    padding: 0px;
+    margin-top: 0%;
+}
+
+.menuu * {
+    margin-top: -5%;
+}
+
+.menuu label * {
+    margin-left: 0%;
+}
+
+.menuu body {
     display: block;
     font-family: 'Times New Roman';
 }
 
-a{
+.a a {
     text-decoration: none;
     color: black;
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-.menuu img{
+.menuu img {
     display: block;
     float: left;
-    width: 70px;
+    width: 50%;
 }
 
-.menuu label[for="chec"]{
+.menuu label[for="chec"] {
     display: inline-block;
-    text-align: start;
+    width: fit-content;
 }
 
-.menuu input[type="checkbox"]{
+.menuu input[type="checkbox"] {
     display: none;
     float: left;
 }
 
-nav{
+nav {
     background-color: rgb(4, 80, 10);
-    margin-top: 0%; 
-    width: 350px;
+    margin-top: 0%;
+    width: 45%;
     height: 100%;
-    left: -350px;
+    left: -45%;
     position: absolute;
     transition: all .5s;
 }
 
-.menuu input[type="checkbox"]:checked ~nav{
-    transform: translateX(350px);
+.menuu input[type="checkbox"]:checked~nav {
+    transform: translateX(100%);
 }
 
-ul{
-    top:70px;
+ul {
+    top: 15%;
     position: absolute;
-    width: 100%;
+    width: 92%;
+    padding: 20px;
 }
 
-a{
+.a a {
     display: block;
-    padding: 16px 4px;
+    padding: 5% 1%;
     color: white;
 }
 
-a:hover{
+.a a:hover {
     background-color: hsla(115, 100%, 74%, 0.993);
-    color: rgb(0, 0, 0);
+    color: rgb(4, 80, 10);
 }
 
-.menuu label{
+.menuu label {
     padding: 20px;
     position: absolute;
     z-index: 1;
+    width: 50%;
+    left: 0%;
 }
