@@ -2,44 +2,44 @@
 <html>
 
 <head>
-        <meta charset="utf-8" />
-        <title>Respostas IFSP - Postar Dúvida Anônima</title>
-        <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="utf-8" />
+    <title>Respostas IFSP - Postar Dúvida Anônima</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
     <div class="menuu">
-            <input type="checkbox" id="chec">
-            <label for="chec">
+        <input type="checkbox" id="chec">
+        <label for="chec">
             <img src="img/menu.png">
             </label>
-            <nav>
-                <div class="a">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="menu_materias.html">Menu Materias</a></li>
-                        <li><a href="">Postagem de Dúvidas</a></li>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="">Perfil</a></li>
-                    </ul>
+        <nav>
+            <div class="a">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu_materias.html">Menu Materias</a></li>
+                    <li><a href="postar_duvida_identificada.html">Postagem de Dúvidas</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="duvida">
+        <form action="" method="POST">
+            <div class="titulo">
+                <h1>Postar Dúvida Anônima</h1>
+            </div>
+            <div class="flex-container">
+                <img src="img/user_anonimo.png" width="140px" height="100px">
+                <div class="campos">
+                    <label>Usuário Anônimo</label>
+                    <label class="Duvida" for="Dúvida:">Dúvida: </label>
+                    <textarea id="msg"></textarea>
+                    <input type="submit" value="Enviar Dúvida" />
                 </div>
-            </nav>
-        </div>
-    <div class="duvida">    
-            <form action="" method="POST">
-                <div class="titulo">
-                    <h1>Postar Dúvida Anônima</h1>
-                </div>
-                <div class="flex-container">
-                    <img src="img/user_anonimo.png" width="140px" height="100px">
-                    <div class="campos">
-                        <label>Usuário Anônimo</label>
-                        <label class="Duvida" for="Dúvida:">Dúvida: </label>
-                        <textarea id="msg"></textarea>
-                        <input type="submit" value="Enviar Dúvida" />
-                    </div>
-                </div> 
-            </form>
+            </div>
+        </form>
     </div>
 </body>
 

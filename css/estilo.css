@@ -118,6 +118,40 @@ p {
     margin-top: -5%;
 }
 
+.pergunta {
+    background-color: white;
+}
+
+.pergunta .flex-container {
+    width: fit-content;
+    align-items: center;
+}
+
+.pergunta img {
+    padding: 20px;
+}
+
+.pergunta p {
+    padding: 20px;
+}
+
+.resposta {
+    background-color: white;
+}
+
+.resposta .flex-container {
+    width: fit-content;
+    align-items: center;
+}
+
+.resposta img {
+    padding: 20px;
+}
+
+.resposta p {
+    padding: 20px;
+}
+
 * {
     padding: 0px;
     margin-top: 0%;
@@ -201,19 +235,19 @@ ul {
     left: 0%;
 }
 
-#msg{
+#msg {
     width: 350px;
     height: 200px;
 }
 
-.duvida{
+.duvida {
     background-color: white;
     border-radius: 5%;
     padding: 5%;
-    width: max-content;
+    width: fit-content;
 }
 
-.duvida img{
+.duvida img {
     float: center;
     margin-left: 5%;
     margin-right: auto;
@@ -221,16 +255,16 @@ ul {
     border-radius: 5%;
 }
 
-.flex-container>label{
-    float: left;;
+.flex-container>label {
+    float: left;
 }
 
-#desc{
+#desc {
     width: 400px;
     height: 180px;
 }
 
-.perfil{
+.perfil {
     background-color: white;
     border-radius: 5%;
     padding: 5%;
@@ -238,7 +272,7 @@ ul {
     width: fit-content;
 }
 
-.perfil input[type="submit"]{
+.perfil input[type="submit"] {
     background: #009900;
     color: white;
     cursor: pointer;

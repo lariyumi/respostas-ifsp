@@ -2,9 +2,9 @@
 <html>
 
 <head>
-        <meta charset="utf-8" />
-        <title>Respostas IFSP - Postar Dúvida</title>
-        <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="utf-8" />
+    <title>Respostas IFSP - Postar Dúvida</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -18,28 +18,30 @@
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="menu_materias.html">Menu Materias</a></li>
-                    <li><a href="">Postagem de Dúvidas</a></li>
+                    <li><a href="postar_duvida_identificada.html">Postagem de Dúvidas</a></li>
                     <li><a href="login.html">Login</a></li>
-                    <li><a href="">Perfil</a></li>
+                    <li><a href="perfil.html">Perfil</a></li>
                 </ul>
             </div>
         </nav>
     </div>
-    <div class="duvida">    
-            <form action="" method="POST">
-                <div class="titulo">
-                    <h1>Postar Dúvida</h1>
+    <div class="duvida">
+        <form action="" method="POST">
+            <div class="titulo">
+                <h1>Postar Dúvida</h1>
+            </div>
+            <div class="flex-container">
+                <img src="img/user_identificado.png" width="100x" height="100px">
+                <div class="campos">
+                    <label>Usuário: Joana Isabel</label>
+                    <label class="Duvida" for="Dúvida:">Dúvida: </label>
+                    <textarea id="msg"></textarea>
+                    <input type="submit" value="Enviar Dúvida" />
                 </div>
-                <div class="flex-container">
-                    <img src="img/user_identificado.png" width="100x" height="100px">
-                    <div class="campos">
-                        <label>Usuário: Joana Isabel</label>
-                        <label class="Duvida" for="Dúvida:">Dúvida: </label>
-                        <textarea id="msg"></textarea>
-                        <input type="submit" value="Enviar Dúvida" />
-                    </div>
-                </div>   
-            </form>
+            </div>
+        </form>
+        <a href="postar_duvida_anonimo.html">Clique aqui para postar dúvida como usuário anônimo</a>
+    </div>
     </div>
 </body>
 
