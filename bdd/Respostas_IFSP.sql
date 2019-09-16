@@ -457,3 +457,119 @@ A(s) alternativa(s) correta(s) é(são):', 2, 21);
 INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (28, '(Mackenzie) Foram características econômicas e sociais da Cidade-Estado Esparta, no período Arcaico:', 4, 31);
 INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (29, 'Leia o texto a seguir.Para justificar a ambição grega de hegemonia universal, Aristóteles (384 - 322 a. C.) formulou a hipótese de que certas raças são, por natureza, livres desde o berço, enquanto outras são escravas.COMAS, Juan. Os mitos raciais. Raça e Ciência. São Paulo: Perspectiva, 1960. v. I. p. 13.Essa filosofia racial foi incorporada às campanhas militares de um grande general e líder político que foi aluno de Aristóteles. Seu nome era', 4, 31);
 
+
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (30, '(FUVEST) Um veículo parte do repouso em movimento retilíneo e acelera com aceleração escalar constante e igual a 2,0 m/s2. Pode-se dizer que sua velocidade escalar e a distância percorrida após 3,0 segundos, valem, respectivamente:', 6, 47 );
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (31, '(UFPA) Um ponto material parte do repouso em movimento uniformemente variado e, após percorrer 12 m, está animado de uma velocidade escalar de 6,0 m/s. A aceleração escalar do ponto material, em m/s, vale:', 6, 47);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (32, 'Uma pedra é lançada do décimo andar de um prédio com velocidade inicial de 5m/s. Sendo a altura nesse ponto igual a 30 m e a aceleração da gravidade igual a 10 m/s2, a velocidade da pedra ao atingir o chão é:', 6, 47);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (33, '(UCB) Determinado atleta usa 25% da energia cinética obtida na corrida para realizar um salto em altura sem vara. Se ele atingiu a velocidade de 10 m/s, considerando g = 10 m/s2, a altura atingida em razão da conversão de energia cinética em potencial gravitacional é a seguinte:', 6, 48);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (34, 'Um objeto de massa m está acoplado a uma mola ideal que se encontra comprimida entre um anteparo vertical e o objeto. Ao soltar uma pequena trava, o objeto é empurrado pela mola, adquirindo velocidade v no momento em que a mola chega à posição relaxada. Determine a constante elástica dessa mola em função da massa do objeto, da compressão x e da velocidade adquirida.', 6, 48);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (35, 'A respeito dos tipos de energia potencial, marque a alternativa incorreta:', 6, 48);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (36, 'Imagine a seguinte situação: um operário da construção civil precisa carregar um saco de cimento de 50 kg. Ele levanta esse saco de cimento e se desloca por 20 metros na horizontal. Adote g = 10 m/s². Calcule o trabalho realizado pela força do operário sobre o cimento.', 6, 49);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (37, '(UESPI) Um bloco de 2 Kg é puxado com velocidade constante por uma distância de 4 m em um piso horizontal por uma corda que exerce uma força de 7 N fazendo um ângulo de 60º acima da horizontal. Sabendo que Cos(60º) = 0,5 e Sen(60º) = 0,86, o trabalho executado pela corda sobre o bloco é de:', 6, 49);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (38, 'Um garoto gasta 75 J de energia para empurrar uma caixa por três metros. Sabendo que a direção de aplicação da força do garoto forma um ângulo de 60° com a direção do deslocamento da caixa, determine o valor da força feita pelo garoto.', 6, 49);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (39, '(UNIFICADO-RJ) Dentro de um elevador, um objeto de peso 100 N está apoiado sobre uma superfície. O elevador está descendo e freando com aceleração vertical e para cima de 0,1 m/s2. Considere a aceleração da gravidade como 10 m/s2. Durante o tempo de frenagem, a força que sustenta o objeto vale, em newtons:', 6, 50);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (40, '(UEA) Um objeto, que se desloca horizontalmente com velocidade v0, é submetido à ação de uma força constante de intensidade F que o acelera, levando-o a atingir a velocidade v em um intervalo de tempo t. Nessas condições, é correto afirmar que a massa do objeto vale:', 6, 50);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (41, 'Analise as afirmações feitas a respeito das leis de Newton.
+I) É possível definir a segunda lei de Newton em função da quantidade de movimento.
+II) Um objeto depositado sobre uma superfície qualquer sofrerá a ação da força Normal como reação à força Peso.
+III) A massa é a grandeza que representa a dificuldade imposta por um corpo à mudança de seu estado inicial.
+IV) A unidade de medida para força é kg.m.s – 2.
+V) Ação e reação sempre possuem o mesmo sentido.', 6, 50);
+
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (42, 'Indique a alternativa em que todos os itens representam forças.', 6, 51);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (43, 'Existem dispositivos que podem ser utilizados para medir a intensidade de uma força, como o:', 6, 51);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (44, 'De acordo com a Dinâmica, dizemos que um corpo está em equilíbrio quando:', 6, 51);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (45, 'A preocupação com o efeito estufa tem sido cada vez mais notada. Em alguns dias do verão de 2009, a temperatura na cidade de São Paulo chegou a atingir 34 ºC. O valor dessa temperatura em escala Kelvin é:', 6, 52);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (46, 'Lorde Kelvin verificou experimentalmente que, quando um gás é resfriado de 0 ºC para -1 ºC, por exemplo, ele perde uma fração de sua pressão igual a 1/273,15. Raciocinou então que na temperatura de -273,15 ºC a pressão do gás se tornaria nula, ou seja, a energia cinética das partículas do gás seria igual a zero. Kelvin denominou a temperatura de -273,15 ºC de zero absoluto.
+Identifique a alternativa em que a conversão de unidades é incorreta:', 6, 52);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (47, '(ITA-SP) Para medir a febre de pacientes, um estudante de medicina criou sua própria escala linear de temperaturas. Nessa nova escala, os valores de O (zero) e 10 (dez) correspondem, respectivamente, a 37°C e 40°C. A temperatura de mesmo valor numérico em ambas as escalas é aproximadamente:', 6, 52);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (48, '(UF - Paraná)
+Para aquecer 500 g de certa substância de 20 ºC para 70 ºC, foram necessárias 4 000 calorias. A capacidade térmica e o calor específico valem respectivamente:
+', 6, 53);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (49, '(Makenzie - SP)
+Em uma manhã de céu azul, um banhista na praia observa que a areia está muito quente e a água do mar está muito fria. À noite, esse mesmo banhista observa que a areia da praia está fira e a água do mar está morna. O fenômeno observado deve-se ao fato de que:
+', 6, 53);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (50, '(Unifor-CE) Um cubo de gelo de massa 100 g, inicialmente à temperatura de - 20 °C, é aquecido até se transformar em água a 40 °C (dados: calor específico do gelo 0,50 cal/g °C; calor específico da água 1,0 cal/g °C; calor de fusão do gelo 80 cal/g). As quantidades de calor sensível e de calor latente trocados nessa transformação, em calorias, foram, respectivamente:', 6, 53);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (51, 'Sobre a matriz energética brasileira, assinale a alternativa INCORRETA:', 6, 54);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (52, 'A respeito das matrizes energéticas mundial e brasileira, assinale V para as proposições verdadeiras e F para as proposições falsas. Em seguida, escolha a alternativa correta:
+I. ( ) A matriz energética mundial é caracterizada pelo intenso uso de combustíveis fósseis, como petróleo e carvão mineral.
+II. ( ) As fontes renováveis de energia representam, aproximadamente, 14% da matriz energética mundial (somadas as energias eólica, solar, geotérmica, hidráulica e biomassa).
+III. ( ) A energia solar é a fonte renovável mais utilizada no Brasil, seguida pela energia hidráulica.
+IV. ( ) Cerca de 14% da produção de energia no Brasil é proveniente de fontes renováveis de energia.', 6, 54);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (53, '(FGV-SP) De todo o potencial hidrelétrico brasileiro (258 mil MW de potência), 30% já foram aproveitados. O maior potencial disponível está na Bacia Amazônica (100 mil MW), do qual menos de 1% foi aproveitado. A exploração de boa parte do potencial da bacia tem como fator restritivo:', 6, 54);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (54, '(PUC-Rio-2009) Em um colégio, de 100 alunos, 80 gostam de sorvete de chocolate, 70 gostam de sorvete de creme e 60 gostam dos dois sabores. Quantos alunos não gostam de nenhum dos dois sabores?', 1, 1);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (55, '(PUC) Numa pesquisa de mercado, verificou-se que 15 pessoas utilizam pelo menos um dos produtos A ou B. Sabendo que 10 dessas pessoas não usam o produto B e que 2 dessas pessoas não usam o produto A, qual é o número de pessoas que utilizam os produtos A e B?', 1,1);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES(56,  '(UF- Juiz de Fora) Dois lados de um triângulo medem 8 m e 10 m e formam um ângulo de 60°. O terceiro lado desse triângulo mede:', 1, 2);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (57, '(UFJF) Os valores de x que satisfazem a inequação x² – 2x – 3 ≥ 0 pertencem a: x - 2 ', 1, 7);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (58, '(Mack – SP) Dadas as funções f(x) = 2 x² – 4 e g(x) = 4 x² – 2x, se x satisfaz f(x) = g(x), então 2x é:', 1,  11);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (59, ' (UEL 2003) “Tales foi o iniciador da filosofia da physis, pois foi o primeiro a afirmar a existência de um princípio originário único, causa de todas as coisas que existem, sustentando que esse princípio é a água. Essa proposta é importantíssima… podendo com boa dose de razão ser qualificada como a primeira proposta filosófica daquilo que se costuma chamar civilização ocidental.” (REALE, Giovanni. História da filosofia: Antigüidade e Idade Média. São Paulo: Paulus, 1990. p. 29.) A filosofia surgiu na Grécia, no século VI a.C. Seus primeiros filósofos foram os chamados pré-socráticos. De acordo com o texto, assinale a alternativa que expressa o principal problema por eles investigado.', 10, 80);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (60, ' Há diferentes formas de se periodizar a Filosofia Grega. Há autores que consideram que ela pode ser dividida em três períodos, outros que ela pode ser dividida em até seis períodos. Compreendendo a Filosofia Grega a partir da divisão em quatro períodos, escolha a alternativa que corresponde a eles.', 10,  81);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (61, 'Pela sua manifestação crítica, a filosofia incomoda a muitos, entre os anos 1964 e 1989 foi retirada do currículo escolar, ficando restrita apenas na formação: ', 10, 82);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (62, 'Em filosofia também estudamos o sistema de ideias que elabora uma "compreensão da realidade" para ocultar ou dissimular o domínio de um grupo social sobre outro. Atua como uma forma de consciência parcial, ilusória e enganadora que se baseia na criação de conceitos e preconceitos como instrumento de dominação. Nos referimos à: ', 10, 83);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (63, '(ENEM 2016) – Questão sobre Platão: Os andróginos tentaram escalar o céu para combater os deuses. No entanto, os deuses em um primeiro momento pensam em matá-los de forma sumária. Depois decidem puni-los da forma mais cruel: dividem-nos em dois.
+Por exemplo, é como se pegássemos um ovo cozido e, com uma linha, dividíssemos ao meio. Desta forma, até hoje as metades separadas buscam reunir-se. Cada um com saudade de sua metade, tenta juntar-se novamente a ela, abraçando-se, enlaçando-se um ao outro, desejando formar um único ser. (PLATÃO. O banquete. São Paulo: Nova Cultural, 1987). No trecho da obra  O banquete, Platão explicita, por meio de uma alegoria, o:', 10, 84);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES  (64, 'Todos os homens são mortais. Sócrates é homem, portanto Sócrates é mortal. Sobre o argumento acima, é correto afirmar que:', 10, 86);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (65, 'Escolha a opção correta: There is___ excellent lawyer in___office I know.', 9,  73);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES(66, '(UFSCar) Go and find the driver ____ arrived here yesterday.', 9, 75);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (67, 'Complete the bank spaces with the right conjugation of the Simple Present Tense. Follow the example: Example: Anne loves the Jane Austin`s work. (love)', 9, 76);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (68, '(Mackenzie-2000) Assinale a alternativa que corretamente preenche as lacunas I, II e III das frases a seguir:
+He ____(I) me a favor 2 months ago. 
+They ____(II) an attempt to escape.
+I ____(III) an important decision last night.', 9, 77);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (69, 'He.......the best soccer player in Brazil last year.', 9, 79);
+
+select * from `Respostas_IFSP`.`Pergunta`;
+-- -----------------------------------------------------
+-- Table `Respostas_IFSP`.`Alternativa`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Respostas_IFSP`.`Alternativa` ;
+
+CREATE TABLE IF NOT EXISTS `Respostas_IFSP`.`Alternativa` (
+  `Id` INT NOT NULL AUTO_INCREMENT,
+  `Texto` VARCHAR(1000) NOT NULL,
+  `Autenticidade` TINYINT NOT NULL,
+  `Pergunta_Id` INT NOT NULL,
+  PRIMARY KEY (`Id`),
+  INDEX `fk_Alternativa_Pergunta1_idx` (`Pergunta_Id` ASC) VISIBLE,
+  CONSTRAINT `fk_Alternativa_Pergunta1`
+    FOREIGN KEY (`Pergunta_Id`)
+    REFERENCES `Respostas_IFSP`.`Pergunta` (`Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) Somente as afirmativas 1 e 3 são verdadeiras', 0, 1);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) Somente as afirmativas 2 e 4 são verdadeiras', 0, 1);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) Somente as afirmativas 1, 2 e 4 são verdadeiras', 0, 1);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) Somente as afirmativas 3 e 4 são verdadeiras', 0, 1);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) Somente as afirmativas 1 e 2 são verdadeiras', 1, 1);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) I – II – IV – III', 0, 2);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) II – III – IV – I', 0, 2);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) I – IV – III – II', 0, 2);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) II – I – III – IV', 1, 2);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) O “big bang”, que deu origem ao universo e, consequentemente, à vida', 0, 3);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) O aumento dos níveis de O‚ atmosférico, que permitiu a proliferação dos seres aeróbios', 0, 3);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) O surgimento dos coacervados, os quais, em soluções aquosas, são capazes de criar uma membrana, isolando a matéria orgânica do meio externo', 0, 3);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) O surgimento de uma bicamada fosfolipídica, que envolveu moléculas com capacidade de autoduplicação e metabolismo', 1, 3);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) O resfriamento da atmosfera, que propiciou uma condição favorável para a origem de moléculas precursoras de vida', 0, 3);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) Abiogênese', 0, 4);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) Geração espontânea', 0, 4);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) Evolução química', 1, 4);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) Panspermia', 0, 4);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) Seleção natural', 0, 4);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) Haldane e Oparin admitiam que moléculas inorgânicas, encontradas na atmosfera primitiva, se combinariam originando moléculas orgânicas simples, que, posteriormente, adquiriram a capacidade de autoduplicação e metabolismo', 1, 5);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) A teoria da abiogênese foi confirmada com as pesquisas realizadas por Pasteur, em que micro-organismos foram encontrados em frascos com “pescoço de cisne”, após o processo de fervura', 0, 5);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) Os avanços tecnológicos e as pesquisas atuais permitiram definir a descoberta da vida como sendo através da evolução de componentes inorgânicos originados no próprio planeta Terra', 0, 5);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) Segundo a panspermia, os primeiros seres vivos teriam vindo do cosmos e seriam pluricelulares e autótrofos', 0, 5);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) As pesquisas realizadas puderam comprovar a hipótese autotrófica, pois não existiam nutrientes suficientes na Terra primitiva para suprir os seres vivos', 0, 5);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) Abiogênese', 0, 6);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) Geração espontânea', 0, 6);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) Evolução química', 0, 6);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) Panspermia', 1, 6);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) Seleção natural', 0, 6);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) I e II', 0, 7);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'b) I e III', 1, 7);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'c) I e IV', 0, 7);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) II e III', 0, 7);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) III e IV', 0, 7);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'a) Nos ecossistemas, os organismos interagem com outros', 0, 8);
