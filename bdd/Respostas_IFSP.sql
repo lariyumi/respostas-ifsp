@@ -228,3 +228,232 @@ INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (76, 'Simple Present')
 INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (77, 'Simple Past');
 INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (78, 'Past Continuous');
 INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (79, 'Verb to be');
+
+/*Filosofia*/
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (80, 'Período Pré-Socratico');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (81, 'Período Sócratico');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (82, 'Período Sistemáticos');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (83, 'Período Helenístico');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (84, 'Platão');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (85, 'Aristóteles');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (86, 'Falácias');
+INSERT INTO `Respostas_IFSP`.`Tema` (`Id`, `Tema`) VALUES (87, 'Dedução e indução');
+
+-- -----------------------------------------------------
+-- Table `Respostas_IFSP`.`Materia_has_Tema`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Respostas_IFSP`.`Materia_has_Tema` ;
+
+CREATE TABLE IF NOT EXISTS `Respostas_IFSP`.`Materia_has_Tema` (
+  `Materia_Id` SMALLINT NOT NULL,
+  `Tema_Id` SMALLINT NOT NULL,
+  PRIMARY KEY (`Materia_Id`, `Tema_Id`),
+  INDEX `fk_Materia_has_Tema_Tema1_idx` (`Tema_Id` ASC) VISIBLE,
+  INDEX `fk_Materia_has_Tema_Materia1_idx` (`Materia_Id` ASC) VISIBLE,
+  CONSTRAINT `fk_Materia_has_Tema_Materia1`
+    FOREIGN KEY (`Materia_Id`)
+    REFERENCES `Respostas_IFSP`.`Materia` (`Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Materia_has_Tema_Tema1`
+    FOREIGN KEY (`Tema_Id`)
+    REFERENCES `Respostas_IFSP`.`Tema` (`Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 1);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 2);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 3);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 4);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 5);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 6);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 7);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 8);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 9);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 10);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 11);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (1, 12);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 13);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 14);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 15);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 16);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 17);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 18);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 19);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 20);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (2, 21);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 22);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 23);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 24);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 25);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 26);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 27);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 28);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 29);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (3, 30);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 31);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 32);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 33);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 34);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 35);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 36);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 37);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (4, 38);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 39);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 40);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 41);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 42);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 43);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 44);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 45);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (5, 46);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 47);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 48);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 49);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 50);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 51);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 52);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 53);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (6, 54);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 55);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 56);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 57);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 58);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 59);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 60);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 61);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 62);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 63);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 64);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (7, 65);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 66);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 67);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 68);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 69);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 70);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 71);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (8, 72);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 73);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 74);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 75);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 76);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 77);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 78);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (9, 79);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 80);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 81);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 82);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 83);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 84);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 85);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 86);
+INSERT INTO `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id`, `Tema_Id`) VALUES (10, 87);
+
+
+-- -----------------------------------------------------
+-- Table `Respostas_IFSP`.`Pergunta`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Respostas_IFSP`.`Pergunta` ;
+
+CREATE TABLE IF NOT EXISTS `Respostas_IFSP`.`Pergunta` (
+  `Id` INT NOT NULL,
+  `Texto` LONGTEXT NOT NULL,
+  `Materia_Id` SMALLINT NOT NULL,
+  `Tema_Id` SMALLINT NOT NULL,
+  PRIMARY KEY (`Id`),
+  INDEX `fk_Pergunta_Materia_has_Tema1_idx` (`Materia_Id` ASC, `Tema_Id` ASC) VISIBLE,
+  CONSTRAINT `fk_Pergunta_Materia_has_Tema1`
+    FOREIGN KEY (`Materia_Id` , `Tema_Id`)
+    REFERENCES `Respostas_IFSP`.`Materia_has_Tema` (`Materia_Id` , `Tema_Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (1, '(Ufpr) Considerando as teorias mais aceitas atualmente para a origem da vida e o início da história dos seres vivos, considere as seguintes afirmativas:
+1. A simbiose teve papel relevante na origem dos eucariontes. 
+2. A diversidade de funções desempenhadas pelo RNA leva a crer que este tenha sido precursor do DNA. 
+3. Organismos multicelulares, como as plantas, foram responsáveis pelo início do grande aumento da concentração de oxigênio na atmosfera terrestre. 
+4. A existência do oxigênio na atmosfera terrestre foi imprescindível para o surgimento da vida. 
+Assinale a alternativa correta', 2, 13);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (2, '(UNIFAL/2008) Do início da vida na Terra, até o aparecimento dos seres vivos atuais, aconteceram vários eventos, como por exemplo:
+
+I – formação das primeiras células;
+II – formação de moléculas orgânicas complexas;
+III – aparecimento de organismos capazes de produzir alimentos pela fotossíntese;
+IV – surgimento dos primeiros organismos aeróbicos.
+
+Marque a alternativa que indica a ordem mais aceita, atualmente, para o acontecimento desses eventos.', 2, 13);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (3, '(UFC/2009) A definição de vida é motivo de muitos debates. Segundo a Biologia, o início da vida na Terra deu-se com:', 2, 13);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (4, 'A origem da vida é explicada por diferentes teorias. Em uma delas, sugere-se que a vida surgiu devido à presença de gases na atmosfera que sofreram a ação de descargas elétricas e radiações, fazendo com que moléculas inorgânicas dessem origem a moléculas orgânicas. Essa ideia é conhecida como:', 2, 14);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (5, '(Unicentro) São muitas as discussões sobre a origem da vida no planeta Terra. Os estudos sobre o assunto evidenciam a importância dos avanços tecnológicos e das pesquisas para o aprimoramento das hipóteses sobre a origem da vida. Porém, após alguns séculos de estudos, apesar de consideráveis avanços, ainda existem muitas perguntas sem respostas. Sobre as principais teorias da origem da vida, pode-se afirmar:', 2, 14);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (6, 'Analise as alternativas abaixo e marque aquela que indica corretamente o nome da teoria que defende que a vida surgiu no planeta a partir de organismos provenientes de outras partes do universo', 2, 14);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (7, '(Fuvest-SP) - 
+I. As Florestas Tropicais possuem maior diversidade biológica que as Temperadas. 
+II. As Florestas Tropicais possuem maior diversidade vegetal e menor diversidade animal que as Savanas. 
+III. As Florestas Temperadas possuem maior biomassa que a Tundra. 
+IV. As Savanas possuem maior biomassa que as Florestas Tropicais. 
+Está CORRETO apenas o que se afirma em ', 2, 19);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (8, 'Marque a alternativa incorreta:', 2, 15);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (9, '(Unicentro) O Manguezal é um ecossistema costeiro que ocorre entre os ambientes terrestre e marítimo, característico de regiões tropicais e subtropicais, sujeito à inundação das marés. O manguezal se enquadra no conceito de ecossistema por:', 2, 15);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (10, 'Considerando os níveis de organização biológica, os ecossistemas estão localizados, do nível mais específico para o mais amplo', 2, 15);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (11, 'As cadeias alimentares mostram as relações de alimentação observadas em um ecossistema. Sobre as cadeias alimentares, marque a alternativa correta.', 2, 16);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (12, 'Sobre os diferentes níveis tróficos observados em cadeias e teias alimentares, marque a alternativa incorreta', 2, 16);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (13, '(Udesc) Analise as proposições abaixo, a respeito da energia nos ecossistemas.
+
+I. Organismos fotossintetizantes (como algas e plantas) são capazes de capturar a energia luminosa do Sol e convertê-la em energia química, que fica armazenada nas moléculas das substâncias orgânicas. Este processo é chamado de fotossíntese.
+
+II. Em uma cadeia alimentar, a quantidade de energia de um nível trófico é sempre maior que a energia que pode ser transferida ao nível seguinte, uma vez que todos os seres vivos consomem parte da energia do alimento para a manutenção de sua própria vida.
+
+III. A transferência de energia na cadeia alimentar é unidirecional; tem início nos organismos produtores, passa para os consumidores e finaliza com os organismos decompositores.
+
+IV. Os consumidores primários obtêm a energia necessária à sua sobrevivência alimentando-se diretamente dos organismos fotossintetizantes.
+
+V. Os organismos decompositores obtêm a energia necessária à sua sobrevivência através da decomposição da matéria orgânica morta.
+
+Assinale a alternativa correta.', 2, 16);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (14, '(Cesgranrio- RJ) Se duas espécies diferentes ocuparem num mesmo ecossistema o mesmo nicho ecológico, é provável que:', 2, 17);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (15, '(UFC-CE) As esponjas desempenham papéis importantes em muitos habitat marinhos. A natureza porosa das esponjas as torna uma habitação ideal para vários crustáceos, equinodermos e vermes marinhos. Além disso, alguns caramujos e crustáceos têm, tipicamente, esponjas grudadas em suas conchas e carapaças, tornando-os imperceptíveis aos predadores. Nesse caso, a esponja se beneficia por se nutrir de partículas de alimento liberadas durante a alimentação de seu hospedeiro. As relações ecológicas presentes no texto são', 2, 17);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (16, 'Quando temos organismos da mesma espécie que trabalham unidos para o bem do grupo, temos um tipo de relação intraespecífica harmônica. Os agrupamentos que se caracterizam por possuírem divisão de trabalho, sistema de classes e indivíduos que apresentam relativa independência e mobilidade recebem o nome de:', 2, 17);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (17, '(UDESC/2009) Com relação aos ciclos biogeoquímicos, analise as seguintes afirmativas:
+
+I. No ciclo do carbono: as cadeias de carbono formam as moléculas orgânicas através dos seres autotróficos  por meio da fotossíntese, na qual o gás carbônico é absorvido, fixado e transformado em matéria orgânica pelos produtores. O carbono volta ao ambiente através do gás carbônico por meio da respiração.
+
+II. No ciclo do oxigênio: o gás oxigênio é produzido durante a construção de moléculas orgânicas pela respiração e consumido quando essas moléculas são oxidadas na fotossíntese.
+
+III. No ciclo da água: a energia solar possui um papel importante, pois ela permite que a água em estado líquido sofra evaporação. O vapor de água, nas camadas mais altas e frias, condensa-se e forma nuvens que, posteriormente, precipitam-se na forma de chuva, e a água dessa chuva retorna ao solo formando rios, lagos, oceanos ou ainda se infiltrando no solo e formando os lençóis freáticos.
+
+IV. No ciclo do nitrogênio: uma das etapas é a de fixação do nitrogênio, na qual algumas bactérias utilizam o nitrogênio atmosférico e fazem-no reagir com oxigênio para produzir nitrito, que será transformado em amônia no processo de nitrificação.
+
+Assinale a alternativa correta.', 2, 18);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (18, 'Os ciclos biogeoquímicos, também chamados de ciclos da matéria, garantem que os elementos circulem pela natureza. Entre as afirmações a seguir, marque aquela que melhor explica o papel dos decompositores nesses ciclos.', 2, 18);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (19, '(ENEM 2015) Na natureza a matéria é constantemente transformada por meio dos ciclos biogeoquímicos. Além do ciclo da água, existem os ciclos do carbono, do enxofre, do fósforo, do nitrogênio e do oxigênio.
+O elemento que está presente em todos os ciclos nomeados é o', 2, 18);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (20, 'Com relação ao tipo de vegetação dos principais biomas mundiais, é INCORRETO afirmar que:', 2, 19);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (21, ' (Fuvest-SP) - 
+I. As Florestas Tropicais possuem maior diversidade biológica que as Temperadas. 
+II. As Florestas Tropicais possuem maior diversidade vegetal e menor diversidade animal que as Savanas. 
+III. As Florestas Temperadas possuem maior biomassa que a Tundra. 
+IV. As Savanas possuem maior biomassa que as Florestas Tropicais. 
+Está CORRETO apenas o que se afirma em ', 2, 19);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (22, '(Ueg 2013) As transformações, a distribuição e o aproveitamento de energia na natureza apresentam muitas peculiaridades. Dentre elas, destaca-se: ', 2, 20);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (23, 'Em uma cadeia alimentar, os decompositores garantem a ciclagem de nutrientes. Assinale os organismos que atuam na decomposição em um ecossistema.', 2, 20);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (24, 'Leia as afirmativas a seguir:
+I. A energia introduzida no ecossistema sob a forma de luz é transformada, passando de organismo para
+organismo, sob a forma de energia química.
+II. No ﬂuxo energético há perda de energia em cada elo da cadeia alimentar.
+III. A transferência de energia na cadeia alimentar é unidirecional, tendo início pela ação dos decompositores.
+IV. A energia química armazenada nos compostos orgânicos dos seus produtores é transferida para os demais componentes da cadeia e permanece estável. 
+Estão corretas as afirmativas:', 2, 20);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (25, '(Pucrs) O citoplasma celular é composto por organelas dispersas numa solução aquosa denominada citosol. A água, portanto, tem um papel fundamental na célula. Das funções que a água desempenha no citosol, qual NÃO está correta?', 2, 21);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (26, 'São exemplos de moléculas orgânicas encontradas nos seres vivos:', 2, 21);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (27, '(UCPel/2006) Os lipídeos são moléculas apolares que não se dissolvem em solventes polares como a água. Com relação aos lipídeos, podemos afirmar que:
+I. são moléculas ideais para o armazenamento de energia por longos períodos.
+II. importantes componentes de todas as membranas celulares.
+III. estão diretamente ligados à síntese de proteínas
+IV. servem como fonte primária de energia.
+V. a cutina, a suberina e a celulose são exemplos de lipídeos.
+A(s) alternativa(s) correta(s) é(são):', 2, 21);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (28, '(Mackenzie) Foram características econômicas e sociais da Cidade-Estado Esparta, no período Arcaico:', 4, 31);
+INSERT INTO `Respostas_IFSP`.`Pergunta` (`Id`, `Texto`, `Materia_Id`, `Tema_Id`) VALUES (29, 'Leia o texto a seguir.Para justificar a ambição grega de hegemonia universal, Aristóteles (384 - 322 a. C.) formulou a hipótese de que certas raças são, por natureza, livres desde o berço, enquanto outras são escravas.COMAS, Juan. Os mitos raciais. Raça e Ciência. São Paulo: Perspectiva, 1960. v. I. p. 13.Essa filosofia racial foi incorporada às campanhas militares de um grande general e líder político que foi aluno de Aristóteles. Seu nome era', 4, 31);
+
