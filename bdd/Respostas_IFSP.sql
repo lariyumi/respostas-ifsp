@@ -803,3 +803,119 @@ INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Per
 INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'd) o relevo formado por baixos planaltos geologicamente instáveis que dificultam a construção de barragens.', 0, 53);
 INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES (NULL, 'e) o baixo desenvolvimento econômico e a fraca integração regional, que desestimulam grandes investimentos.', 0, 53);
 INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL,  'b) 10',  0,  54 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) 20', 0, 54);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) 30', 0, 54);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) 40', 0, 54);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) 0', 0, 55 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) 2', 0, 55 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) 3', 0, 55 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) 4', 0, 55 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) 5', 0, 55 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) 2√21 m', 0,  56);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) 2√31 m', 0, 56 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) 2√41 m', 0, 56 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) 2√51 m', 0, 56 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) 2√61 m', 0,  56);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) [-1, 2) U [3, ∞)', 0, 57 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) (-1, 2] U (3, ∞)', 0, 57 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) [1, 3]', 0, 57 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) [- 3, 2)',  0,  57 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) [-3, - 2] U (2, ∞)', 0,  57 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) ¼', 0,  58 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) 1', 0,  58 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) 8', 0,  58 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) 4', 0,  58 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) ½', 0,  58 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) A ética, enquanto investigação racional do agir humano.', 0,  59 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) A estética, enquanto estudo sobre o belo na arte.', 0,  59 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) A epistemologia, como avaliação dos procedimentos científicos.', 0,  59 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) A cosmologia, como investigação acerca da origem e da ordem do mundo.', 0,  59 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) A filosofia política, enquanto análise do Estado e sua legislação.', 0,  59 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) Período Pré-Socrático, Socrático, Escolástico e Patrístico.', 0,  60 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) Período Sofista, Pré-Socrático, Socrático e Pós-Socrático.', 0,  60 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) Período Pré-Socrático, Socrático, Platônico e Aristotélico.', 0,  60 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) Período Pré-Socrático, Socrático, Pós-Socrático e Greco-Romano (ou helenístico).', 0,  60 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) Militar.', 0,  61 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) Seminarística.', 0,  61 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) Reclusória.', 0,  61 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) Particular.', 0,  61 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) Ideologia.', 0,  62 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) Doutrina.', 0,  62 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) Mítica.', 0,  62 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) Racionalização.', 0,  62 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) bem supremo como fim do homem.', 0,  63 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) prazer perene como fundamento da felicidade.', 0,  63 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) ideal inteligível como transcendência desejada.', 0,  63 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) amor como falta constituinte do ser humano.', 0,  63 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) autoconhecimento como caminho da verdade.', 0,  63 );
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a)se trata de um non-sequitur.', 0,  64);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b)se trata de um argumento válido.', 0,  64);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c)se trata de uma falsa analogia.', 0,  64);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd)se trata de uma petição de princípio.', 0,  64);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) a, the.',  0,  65);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) an, an.',  0,  65);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) a, an.',  0,  65);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) an, the.',  0,  65);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) he.',  0,  66);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) who.',  0,  66);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) whose.',  0,  66);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) what.',  0,  66);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) whom.',  0,  66);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) Cayo ______to the College tonight.(GO)',  0,  67);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) did –made – made.',  0,  68);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) made – did – made.',  0,  68);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) did – made – did.',  0,  68);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) made – made – made.',  0,  68);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'e) made – did – did.',  0,  68);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'a) Is.',  0,  69);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'b) Was.',  0,  69);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'c) Are.',  0,  69);
+INSERT INTO `Respostas_IFSP`.`Alternativa` (`Id`, `Texto`, `Autenticidade`, `Pergunta_Id`) VALUES(NULL, 'd) Were',  0,  69);
+
+select * from `Respostas_IFSP`.`Alternativa`;
+-- -----------------------------------------------------
+-- Table `Respostas_IFSP`.`RespostaDuvida`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Respostas_IFSP`.`RespostaDuvida` ;
+
+CREATE TABLE IF NOT EXISTS `Respostas_IFSP`.`RespostaDuvida` (
+  `Id` INT NOT NULL AUTO_INCREMENT,
+  `Resposta` VARCHAR(10000) NOT NULL,
+  `Duvida_Id` INT NOT NULL,
+  PRIMARY KEY (`Id`),
+  INDEX `fk_RespostaDuvida_Duvida1_idx` (`Duvida_Id` ASC) VISIBLE,
+  CONSTRAINT `fk_RespostaDuvida_Duvida1`
+    FOREIGN KEY (`Duvida_Id`)
+    REFERENCES `Respostas_IFSP`.`Duvida` (`Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `Respostas_IFSP`.`Prova_has_Pergunta`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `Respostas_IFSP`.`Prova_has_Pergunta` ;
+
+CREATE TABLE IF NOT EXISTS `Respostas_IFSP`.`Prova_has_Pergunta` (
+  `Prova_Id` INT NOT NULL,
+  `Pergunta_Id` INT NOT NULL,
+  PRIMARY KEY (`Prova_Id`, `Pergunta_Id`),
+  INDEX `fk_Prova_has_Pergunta_Pergunta1_idx` (`Pergunta_Id` ASC) VISIBLE,
+  INDEX `fk_Prova_has_Pergunta_Prova1_idx` (`Prova_Id` ASC) VISIBLE,
+  CONSTRAINT `fk_Prova_has_Pergunta_Prova1`
+    FOREIGN KEY (`Prova_Id`)
+    REFERENCES `Respostas_IFSP`.`Prova` (`Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Prova_has_Pergunta_Pergunta1`
+    FOREIGN KEY (`Pergunta_Id`)
+    REFERENCES `Respostas_IFSP`.`Pergunta` (`Id`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
