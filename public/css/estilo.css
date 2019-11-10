@@ -42,13 +42,14 @@ img {
 
 .campos {
     padding: 5%;
-    width: max-content;
+    width: 90%;
 }
 
 .all {
     background-color: white;
     border-radius: 5%;
     padding: 1%;
+    width: max-content;
 }
 
 .all img {
