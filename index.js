@@ -3,20 +3,18 @@ const express = require('express')
 const handlebars = require('express-handlebars')
 
 const path = require('path');
-const hpath = require('path');
 
 const server = express()
 server.engine('handlebars', handlebars({ defaultLayout: 'main' }))
 server.set('view engine', 'handlebars')
 server.use(express.static(path.join(__dirname, 'public')))
-server.use(express.static(hpath.join(__dirname, 'views')))
 
 server.get('/', function(req, res) {
-    res.render('home')
+    res.render('index')
 })
 
-server.get('/home', function(req, res) {
-    res.render('home')
+server.get('/index', function(req, res) {
+    res.render('index')
 })
 
 server.get('/cadastro', function(req, res) {
