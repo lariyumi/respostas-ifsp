@@ -4,18 +4,19 @@
         <h1>Cadastro</h1>
     </div>
 
-    <form action="" method="POST">
+    <form action="/cadastro" method="POST">
         <div class="campos">
             <label for="nome">Nome </label>
             <input id="nome" type="text" placeholder="Digite seu nome" name="nome" />
-            <label for="prontuário">Prontuário: </label>
-            <input id="prontuário" type="text" placeholder="Digite seu prontuário" name="prontuário" />
-            <label for="e-mail">E-mail: </label>
-            <input id="e-mail" type="text" placeholder="Digite seu e-mail" name="e-mail" />
+            <label for="prontuario">Prontuário: </label>
+            <input id="prontuario" type="text" placeholder="Digite seu prontuário" name="prontuario" />
+            <label for="email">E-mail: </label>
+            <input id="email" type="text" placeholder="Digite seu e-mail" name="email" />
             <label for="senha">Senha: </label>
             <input id="senha" type="password" placeholder="Digite sua senha" name="senha" />
-            <label for="confirmarSenha">Confirmar senha: </label>
-            <input id="confirmarSenha" type="password" placeholder="Digite sua senha" name="confirmarSenha" />
+            <label for="tipo">O que você é?</label>
+            <input id="tipo" type="radio" value="Monitor" name="tipo" />Monitor<br />
+            <input id="tipo" type="radio" value="Aluno" name="tipo" />Aluno
             <input type="submit" value="Entrar" />
         </div>
     </form>

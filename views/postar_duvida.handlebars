@@ -1,14 +1,27 @@
 <div class="duvida">
-    <form action="" method="POST">
+    <form action="/postar_duvida" method="POST">
         <div class="titulo">
             <h1>Postar Dúvida</h1>
         </div>
         <div class="flex-container">
-            <img src={{{img}}} width="140px" height="100px">
             <div class="campos">
-                <label>{{{nome}}}</label>
+                <label class="Prontuario" for="Prontuario:">Prontuario: </label>
+                <textarea id="pront" name="pront"></textarea>
                 <label class="Duvida" for="Dúvida:">Dúvida: </label>
-                <textarea id="msg"></textarea>
+                <textarea id="msg" name="msg"></textarea>
+                <label class="Duvida" for="Materia">Selecione a matéria sobre a qual é a pergunta: </label>
+                <select id="mat">
+                    <option value="1" name="1">Matemática</option>
+                    <option value="2" name="2">Biologia</option>
+                    <option value="3" name="3">Geografia</option>
+                    <option value="4" name="4">História</option>
+                    <option value="5" name="5">Português</option>
+                    <option value="6" name="6">Física</option>
+                    <option value="7" name="7">Química</option>
+                    <option value="8" name="8">Sociologia</option>
+                    <option value="9" name="9">Inglês</option>
+                    <option value="10" name="10">Filosofia</option>
+                </select>
                 <input type="submit" value="Enviar Dúvida" />
             </div>
         </div>

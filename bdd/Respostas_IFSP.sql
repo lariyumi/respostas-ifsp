@@ -86,6 +86,16 @@ CREATE TABLE IF NOT EXISTS `Respostas_IFSP`.`Duvida` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (1, 'Como eu faço exponenciação?', 1851021, 1);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (2, 'Como se faz logaritmo?', 1851021, 1);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (3, 'Como eu acho uma raiz quadrada de decimal?', 1851021, 1);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (4, 'Qual a primeira Lei de Mendel?', 1851021, 2);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (5, 'Qual a segunda Lei de Mendel?', 1851021, 2);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (6, 'Como começou a primeira Guerra Mundial?', 1851021, 4);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (7, 'O que é hipérbole?', 1852841, 5);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (8, 'Qual os personagens do Auto da Barca do Inferno?', 1852841, 5);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (9, 'Quais as matrizes energéticas do Brasil?', 1852841, 6);
+INSERT INTO `Respostas_IFSP`.`Duvida` (`Id`, `Duvida`, `Usuario_Prontuario`, `Materia_Id`) VALUES (10, 'Quais as fórmulas de pressão?', 1852841, 6);
 
 -- -----------------------------------------------------
 -- Table `Respostas_IFSP`.`Prova`

@@ -3,16 +3,8 @@
 </div>
 <h2>Dúvidas recentes<br/><br/></h2>
 <div class="pergunta">
-    <div class="flex-container">
-        <img src="img/user_identificado.png" width="75px" height="75px">
-        <p>Amanda</p>
-    </div>
-    <p>Matemática - Quanto é sen 30º + cos 60º?</p>
-</div>
-<div class="resposta">
-    <div class="flex-container">
-        <img src="img/user_anonimo.png" width="75px" height="75px">
-        <p>Usuário anônimo</p>
-    </div>
-    <p>Resposta: sen 30º + cos 60º é igual a 1.</p>
+        {{#each duvidas}}
+                <p>Usuário: {{this.Usuario_Prontuario}} </p>
+                <p>Dúvida: {{this.Duvida}}</p><br />
+        {{/each}}
 </div>

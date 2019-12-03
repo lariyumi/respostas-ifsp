@@ -22,7 +22,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     width: fit-content;
     display: block;
-    background-color: darkgreen;
+    background-color: rgb(103, 243, 103);
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -121,15 +121,8 @@ p {
 
 .pergunta {
     background-color: white;
-}
-
-.pergunta .flex-container {
-    width: fit-content;
-    align-items: center;
-}
-
-.pergunta img {
-    padding: 20px;
+    display: block;
+    border-radius: 25px;
 }
 
 .pergunta p {
